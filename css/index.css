@@ -1,0 +1,25 @@
+.logo {
+    width: 300px; /* Ancho del logo */
+    height: auto; /* Alto proporcional al ancho */
+    border-radius: 10px; /* Borde redondeado */
+    margin-top: 20px; /* Espacio entre el título y el logo */
+    margin-left: auto; /* Espacio igual a la izquierda */
+    margin-right: auto; /* Espacio igual a la derecha */
+    transition: transform 0.3s; /* Transición suave al agrandar el logo */
+}
+
+.logo:hover {
+    transform: scale(1.05); /* Agrandar el logo al pasar el ratón */
+}
+
+.imagen {
+    width: 100%; /* Ancho de la imagen igual al del contenedor */
+    height: auto; /* Altura de la imagen proporcional al ancho */
+    border-radius: 10px; /* Borde redondeado */
+    margin-top: 20px; /* Espacio entre el título y el logo */
+    margin-left: auto; /* Espacio igual a la izquierda */
+    margin-right: auto; /* Espacio igual a la derecha */
+    max-width: 80%;
+    max-width: 1200px;
+    display: flex;
+}
